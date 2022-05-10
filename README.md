@@ -1,4 +1,4 @@
-# What we are building?
+# What we are building
 
 Whenever a package is published to the NPM registry, you receive an event with information about the newly published package on a registered webhook. You can create an HTTP server that receives the event and uses KafkaJS to publish a message to Kafka to let you know that a new version of the package has been released.
 
@@ -14,7 +14,7 @@ You are also going to create a KafkaJS consumer that consumes the Kafka topic an
 
 Credit: Based on Tommy Brun's [tutorial](https://www.confluent.io/en-gb/blog/getting-started-with-kafkajs/)
 
-The original code in written in JavaScript. I opted to use TypeScript as I do with most things lately.
+The original code is written in JavaScript. I opted to use TypeScript as I do with most things lately.
 
 
 
